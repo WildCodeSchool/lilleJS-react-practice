@@ -1,14 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import Home from "./FetchPractice/Home";
+import AnimalList from "./AnimalsList/AnimalsList";
 
-function App() {
-
-  return (
-    <>
-    </>
-  )
+{
+  /* décommente AnimalList pour l'exo sur "AnimalList" */
+}
+{
+  /* décommente HOME pour l'exo sur "FetchPractice" */
 }
 
-export default App
+function App() {
+  return (
+    <>
+      {/* <AnimalList />  */}
+      {/* <Home/> */}
+    </>
+  );
+}
+
+export default App;
