@@ -1,5 +1,6 @@
 
 const CatCard = ({ cat }) => {
+    
   return (
     <div>
       <img
@@ -7,6 +8,7 @@ const CatCard = ({ cat }) => {
         src={`https://cataas.com/cat?_id=${cat._id}`}
         alt=""
       />
+
     </div>
   );
 };
